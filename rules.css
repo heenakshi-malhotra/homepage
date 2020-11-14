@@ -1,0 +1,107 @@
+@charset "UTF-8";
+body { 
+	   background-image:url("img/background.gif");
+}
+
+.border {
+		border: 10px;
+		border:thick;
+}
+.container {
+    position: relative;
+    top: 80px;
+	width: 780px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #faf58e;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 10px solid #000000;
+	text-align: center; /* this overrides the text-align: center on the body element. */
+	font-family:Cursive;
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+	
+}
+#part9 { position: absolute;
+		  top:250px;
+		  left: 650px;
+		  z-index: -2;
+		  transform: rotate(90deg);
+}
+
+#myHeader {
+  font-family: Courier;
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+#myHeader2 {
+  font-family: Courier;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #7dff97, 0 0 40px #7dff97, 0 0 50px #7dff97, 0 0 60px #7dff97, 0 0 70px #7dff97;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #7dff97, 0 0 40px #7dff97, 0 0 50px #7dff97, 0 0 60px #7dff97, 0 0 70px #7dff97, 0 0 80px #7dff97;
+  }
+}
+
+.spoken {
+    width:343px;
+    height:65px;
+    background:url('spoken.png') no-repeat;
+
+
+}
+.spoken:hover {
+	width:343px;
+    height:65px;
+    background:url('spoken-yellow.png') no-repeat;
+    cursor:pointer;
+}
+
+
+.other {
+    width:348px;
+    height:53px;
+    background:url('img/other.png');
+
+}
+.other:hover {
+	width:348px;
+    height:53px;
+    background:url('img/other-yellow.png');
+    cursor:pointer;
+}
+
+
+.tragic {
+    width:356px;
+    height:78px;
+    background:url('img/tragic.png');
+
+}
+.tragic:hover {
+	 width:356px;
+    height:78px;
+    background: url('img/tragic-yellow.png');
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
